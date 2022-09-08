@@ -2,13 +2,10 @@
 
 /**
  *
- *  main - Entry point
+ *  main - print the string in the put fuction
  *
- *  Description: prints "with proper grammar, but the outcome is a piece of
- *   art,"
- *
- *  followed by a newline, using printf and not puts.
- *
+ *  Description: using the main fuction
+ *  this program prints "with proper grammar, but the outcome is a piece of art,"
  *  Return: Always 0 (Success)
  */
 int main(void)
