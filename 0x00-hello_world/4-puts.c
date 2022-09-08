@@ -1,25 +1,10 @@
 #include <stdio.h>
-
 /**
+ * main - entry point 
  *
- *  * main - This uses program prints exactly the string
- *
- *   * "Programming is like building a multilingual puzzle
- *
- *    * followed by a new line.
- *
- *     * Return: always 0 (Success)
- *
- *      */
-
+ * Return: 0 after printing the fuction
+ */
 int main(void)
-
-{
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-
-
-			return (0);
-
+{puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
