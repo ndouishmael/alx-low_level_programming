@@ -2,9 +2,10 @@
 
 /**
  *
- *  main - The purpose of this file is to output
+ *  main - Entry point
  *
- *  the string: with proper grammar, but the outcome is a piece of art,
+ *  Description: prints "with proper grammar, but the outcome is a piece of
+ *   art,"
  *
  *  followed by a newline, using printf and not puts.
  *
