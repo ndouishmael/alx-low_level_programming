@@ -35,7 +35,7 @@ int main(void)
 				k++;
 			}
 		
-			j++;
+	       	j++;
 		}
 
 		i++;
