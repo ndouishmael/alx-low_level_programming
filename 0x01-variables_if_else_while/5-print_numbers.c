@@ -12,15 +12,10 @@ int main(void)
 {
 	int i;
 
-	i = 48;
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
 
-	while (i < 58)
-	{
-		putchar(i);
-		i++
-	}
-
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }
