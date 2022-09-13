@@ -1,4 +1,6 @@
-#include <unistd.h> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints _Puchar
@@ -8,16 +10,9 @@
  * Return: 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
-	char text [10] = "_puchar";
-	int i = 0;
-	
-	for (i = 0; i<9; i++)
-	{  
-		_puchar(text[i]);
-	}
-	_puchar('\n');
+	printf("_putchar\n");
 
 	return (0);
 }
