@@ -9,27 +9,20 @@
 
 void print_triangle(int size)
 {
-	int c;
-	int l;
+	int row, column, space, pound;
 
 	if (size <= 0)
-	{
 		_putchar('\n');
-		return;
-	}
-	for (l = 0 ; l < size ; l++)
+
+	for (row = 0; row < size; row++)
 	{
-		for (c = 0 ; c < size ; c++)
-		{
-			if (c >= size - l - 1)
-			{
-				_putchar('#');
-			}
-			else 
-			{
-				_putchar(' ');
-			}
-		}
+		column = size - 1 - row;
+
+		for (space = column; space > 0; space--)
+			_putchar(' ');
+		for (pound = size - column; pound > 0; pound--)
+			_putchar(35);
+
 		_putchar('\n');
 	}
 }
