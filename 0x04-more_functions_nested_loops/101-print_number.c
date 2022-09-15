@@ -2,10 +2,8 @@
 #include "main.h"
 
 /**
- * power - exponents
- * @base: base
- * @exp: exponent
- * Return: result (int)
+ * print_number - Prints a number
+ * @n: The number to print
  */
 
 void print_number(int n)
