@@ -19,6 +19,7 @@ char *_strdup(char *str)
 	}
 
 	length = 0;
+
 	while (*(str + length) != '\0')
 	{
 		length++;
