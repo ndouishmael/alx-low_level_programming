@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * print_bin - prints binary rep of @n
- *
- * @number: decimal value
- *
- * Return: nothing
-*/
+ * flip_bits - returns the number of bits to flip number to another
+ * @n: first integer
+ * @m: second integer
+ * Return: number of bits to change (integer)
+ */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
